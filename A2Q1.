@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+#include<conio.h>
+
+Void main()
+
+{
+
+int chk_year;
+
+Printf ("Input a year:");
+
+Scanf("%d", &chk_year);
+
+if ((chk_year % 400)== 0); 
+{
+
+Printf ("%d" is a leap year. \n", chk_year);
+}
+Else if ((chk-year %100) == 0)
+
+Printf("%d is not a leap year. \n", chk_year),
+
+Else if ((chk year% 4) == 0)
+
+Printf("%d is a leap year.\n", chk_year);
+
+Else
+
+Printf("%d is not a leap year.\n", chk_year);
+}
